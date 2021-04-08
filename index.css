@@ -42,7 +42,7 @@ blockquote, q {
 	}
     *{box-sizing:border-box ;
     max-width:100%;
-border:solid 1px grey}
+}
 /*Stlyes*/
 html{font: size 62.5%;}
 body{font-size: 1.6rem;
@@ -78,13 +78,13 @@ width:50%;}
 line-height: 2;
 position:absolute bottom:20%;}
 
-div.info{background-color: tomato;
+div.info{background-color: #DDB9A3;
 padding:2% 4%;
 margin: 5%;
 color: white;
 text-align: center;
 font-size: 2rem;}
-div.first{margin-bottom:6% ;}
+div.first{margin-bottom:6% ;font-size: 3rem;}
 div.second{margin-bottom:2% ;
     font-size: 3rem;}
 
@@ -96,5 +96,9 @@ margin: 0 30%;}
     margin: 0 30%;
 font-size: 2rem;}
 footer{background-image:none;
+    background-color: #F9E7DC;
 }
 footer img{width:100% ;}
+.bold{font-weight: bold;}
+nav a:hover{color:violet}
+.right:hover{text-decoration: underline;}
